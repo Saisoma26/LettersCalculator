@@ -1,0 +1,50 @@
+.back {
+  background-image: linear-gradient(to Right, #1d976c, #93f9b9);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.h1 {
+  font-size: 44px;
+  color: white;
+  margin: 10px;
+}
+.inputeltext {
+  font-size: 16px;
+  color: white;
+  margin: 0px;
+}
+.input {
+  background-color: transparent;
+  border-width: 3px;
+  border-color: white;
+  margin: 10px;
+}
+.countdisplay {
+  width: 200px;
+  height: 38px;
+  background-color: white;
+  border-radius: 10px;
+  color: #219a6f;
+  margin: 10px;
+}
+.display {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  justify-content: flex-end;
+  margin: 10px;
+}
